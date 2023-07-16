@@ -1,13 +1,59 @@
-# Sample Hardhat Project
+# newToken Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+The MyToken contract is an ERC20-compliant token contract that allows users to create and manage their own token. This contract provides functionalities such as token minting, transferring tokens between addresses, and burning tokens.
+## Description
 
-Try running some of the following tasks:
+The purpose of this project is to enable users to have full control over their own token by creating a customizable ERC20 token contract. Users can set the name, symbol, and total supply of their token during deployment. The contract owner has the ability to mint new tokens and distribute them to specific addresses. Users can transfer their tokens to other addresses, allowing for peer-to-peer transactions. Additionally, users can burn their tokens if they no longer need them, effectively reducing the token supply.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+By providing a flexible and customizable token contract, this project empowers individuals, organizations, and developers to create and manage their own tokens on the Ethereum blockchain. This token can be used for various purposes, such as creating a reward system, facilitating in-app transactions, or launching a new cryptocurrency.
+## Getting Started
+
+### Installing
+First Clone the project in vs code using command.
+>> git clone https://github.com/shivam70066/ETH-AVAX-PROJECT-3
+
+Then follow these steps:
+
+1. Install the project dependencies by running the following command:
+
+   ```
+   npm install
+   ```
+2. Start a blockchain locally by running the command: 
+   ```
+   npx hardhat node
+   ```
+3. Test the contract by running the command: 
+   ```
+   npx hardhat test
+   ```
+
+4. Deploy the Shivam's newToken smart contract by running the deployment script:
+
+   ```
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
+
+### Executing program
+
+* Go to [remix](remix.ethereum.org) IDE.
+* Paste the contract in the IDE.
+* Compile the contract.
+* Select the `Dev - Hardhat Provider` as the environment in Deploy tab.
+* Paste you contract address in remix and click on `At Address`.
+* Play with your contract in remix!!
+
+## Help
+
+If you encounter any issues or have any questions, you can refer to the project's documentation or seek help from the project contributors.
+
+
+## Authors
+
+* -[Shivam Gupta]
+* Metcrafter Username - shivam311
+
+
+## License
+
+This code is released under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
