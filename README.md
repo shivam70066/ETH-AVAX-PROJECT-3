@@ -10,7 +10,7 @@ By providing a flexible and customizable token contract, this project empowers i
 
 ### Installing
 First Clone the project in vs code using command.
->> git clone https://github.com/shivam70066/ETH-AVAX-PROJECT-3
+> git clone https://github.com/shivam70066/ETH-AVAX-PROJECT-3
 
 Then follow these steps:
 
@@ -50,7 +50,7 @@ If you encounter any issues or have any questions, you can refer to the project'
 
 ## Authors
 
-* -[Shivam Gupta]
+* [Shivam Gupta]
 * Metcrafter Username - shivam311
 
 
